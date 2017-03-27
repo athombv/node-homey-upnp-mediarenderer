@@ -1,0 +1,15 @@
+{
+  "name": "homey-upnp-mediarenderer",
+  "version": "1.0.0",
+  "description": "Generic upnp mediarenderer driver for Homey apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Athom B.V.",
+  "license": "ISC",
+  "dependencies": {
+    "node-ssdp": "^3.2.0",
+    "upnp-mediarenderer-client": "git://github.com/athombv/node-upnp-mediarenderer-client.git#production"
+  }
+}
