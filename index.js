@@ -2,4 +2,4 @@
 
 const UpnpMediaRenderer = require('./lib/UpnpMediaRenderer');
 
-return UpnpMediaRenderer;
+module.exports = UpnpMediaRenderer;
